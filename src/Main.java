@@ -1,11 +1,10 @@
-package com.company;
-
 import java.util.Scanner;
 
 public class Main {
     // hour = 360/12; //means 30 degree per hour
     // minutes = 360/60; //means 6 degree per minute
     //hour = (hour/60); // means 0.5 degree per minute
+    //degree = |h-m|
     public static void main(String[] args) {
         int h;
         int m;
